@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Monoton&family=Poppins:wght@400;500;700;800&display=swap');
+/* @font-face { */
+  /* font-family: Monoton; */
+  /* src: url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@400;500;700;800&display=swap'); */
+/* } */
+.MainHeading{
+  font-family: 'Monoton';
+  color: #FFFFFF;
+  font-size: 6.4rem;
+}
+.Container{
+  width:150rem;
+  margin:0 auto;
+}
+
+.CheckListHeader{
+  max-width: 150rem;
+  height:auto;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1F1F35;
+  padding: 2rem 0 4rem 0;
+
+  
+
+  
+}
+
+.ListFormInp{
+  font-size: 1.8rem;
+  width: 30rem;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 90rem;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+}
+.ListFormInp:focus{
+  outline: none;
+}
+.ListFormBtn{
+  border: none;
+  /* background-color: ; */
+  background-color: #3D3D55;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 2rem;
+  padding:0.8rem 3.2rem;
+  border-radius: 10rem;
+  
+}
+.ListForm{
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+
+
+}
+.ListItem{
+  
+  font-size: 2rem;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+
+  
+
+}
+/* .ListItem span{ */
+  /* text-decoration: line-through; */
+/* } */
+.ListItemInput{
+  width: 10rem;
+  display: block;
+  
+}
+/* input[type="checkbox"]{
+  display: none;
+} */
+/* label{ */
+  /* display: inline-block; */
+  /* width: 2rem; */
+  /* height: 2rem; */
+/*  */
+  /* background-color: #ffff; */
+/* } */
+/* label::before{ */
+  /* content: "\2713"; */
+  /* line-height: 1.8rem; */
+  /* font-size: 3.5rem; */
+  /* text-align: center; */
+  /* display: block; */
+  /* color: #ffff; */
+/* } */
+/* input[type="checkbox"]:checked + label::before{ */
+  /* background-color: #1F1F35; */
+/* } */
+/*  */
+
+.ListItems{
+  /* padding: 3rem 1rem; */
+  /* max-resolution: inherit;
+   */
+   max-width: 50rem;
+   margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+
+
+}
+.ListItems li{
+
+  list-style: none;
+}
+input[type="checkbox"]{
+  width: 2rem;
+  height: 2rem;
+  /* background-color: #1F1F35;
+   */
+   accent-color: #1f1f35;
+   border: none;
+}
+input[type="checkbox"]:checked ~ span{
+  text-decoration: line-through;
+
+}
+.Delete{
+  font-size: 3.2rem;
+  color: rgb(146, 6, 6);
+}
+
+.filter-section{
+  position: fixed;
+  bottom: 15%;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  gap: 1rem;
+
+  
+}
+
+select{
+  border: none;
+  background-color: #3D3D55;
+  color: #fff;
+  padding: 0.45rem;
+  font-size: 1.6rem;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+}
+.clear-list{
+  border:none;
+  background-color: rgb(61, 61, 87) ;
+  color: #fff;
+  padding: 0.45rem 2rem;
+  /* font-size: 1.6rem; */
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  box-shadow:0.7rem 0.7rem 0 0 rgb(61, 61, 87,0.1);
+  transition: all 0.3s ease-in-out;
+}
+.clear-list:hover{
+  box-shadow:1  rem 1rem 0 0 rgb(61, 61, 87,0.1);
+}
+
+.clear-list:active{
+  box-shadow:0.2rem 0.2rem 0 0 rgb(61, 61, 87,0.1);
+
+}
