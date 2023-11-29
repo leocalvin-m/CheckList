@@ -8,7 +8,7 @@ Checklist is built using cutting-edge technologies to ensure high performance an
 
 ## Installation
 - clone the Project
-- If you didn't have Bun and vite installed install it [Bun][https://bun.sh] - [Vite][https://vitejs.dev]
+- If you didn't have Bun and vite installed install it [Bun]https://bun.sh - [Vite]https://vitejs.dev
 - After Cloning, change into the directory and run the following commands
 - bun install
 - bun run dev
