@@ -4,7 +4,7 @@
 
 Checklist is built using cutting-edge technologies to ensure high performance and a great user experience:
 
-<img src="https://bun.sh/logo.svg" href="https://bun.sh" width="75" height="75"> <img src="https://api.iconify.design/logos/vitejs.svg" href="https://vitejs.dev" width="75" height="75"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" href="https://react.dev" width="75" height="75">
+<img src="https://bun.sh/logo.svg" href="https://bun.sh" width="75" height="75"> <img src="https://api.iconify.design/logos/vitejs.svg" href="https://vitejs.dev" width="75" height="75"> <a  href="https://react.dev"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" href="https://react.dev" width="75" height="75"></a>
 
 ## Installation
 - clone the Project
