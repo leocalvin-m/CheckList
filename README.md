@@ -22,5 +22,5 @@ Checklist is made available under the GNU General Public License. For more detai
 
 
 ## LiveSite
-Link- https://main--venerable-moxie-8521be.netlify.app
+Link- https://checkllist.netlify.app
 
