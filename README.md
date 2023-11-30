@@ -22,5 +22,5 @@ Checklist is made available under the GNU General Public License. For more detai
 
 
 ## LiveSite
-Link- https://checkllist.netlify.app
+Link- https://checkllist.netlify.app [![Netlify Status](https://api.netlify.com/api/v1/badges/70920a9f-7db3-41c0-8f3d-2608fad75a0b/deploy-status)](https://app.netlify.com/sites/checkllist/deploys)
 
