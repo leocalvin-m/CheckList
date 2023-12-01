@@ -177,3 +177,38 @@ select{
   box-shadow:0.2rem 0.2rem 0 0 rgb(61, 61, 87,0.1);
 
 }
+
+@media screen and (max-width:515px){
+  html{
+    font-size: 55% !important;
+  }
+  footer{
+    font-size: 1.6rem !important;
+  }
+
+  .ListForm{
+    display: flex;
+    flex-direction: column;
+    .ListFormBtn{
+      width:100%;
+    }
+  }
+
+  .MainHeading{
+    font-size: 5.4rem;
+  }
+
+  .filter-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .clear-list{
+      width: 23rem;
+    }
+
+  }
+  .ListItems{
+    padding: 0 10%;
+  }
+  
+}
